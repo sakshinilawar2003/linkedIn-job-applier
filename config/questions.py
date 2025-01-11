@@ -66,7 +66,7 @@ then it will add '.' before last 5 digits and answer. Examples:
 '''
 
 # (In Development) # Currency of salaries you mentioned. Companies that allow string inputs will add this tag to the end of numbers. Eg: 
- currency = "INR"                 # "USD", "INR", "EUR", etc.
+currency = "INR"                 # "USD", "INR", "EUR", etc.
 
 # What is your notice period in days?
 notice_period = 30                   # Any number >= 0 without quotes. Eg: 0, 7, 15, 30, 45, etc.
