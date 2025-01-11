@@ -46,10 +46,18 @@ password = "@Linkedin20"      # Enter your password in the quotes
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer"]
-
+search_terms =search_terms = [
+    "Data Engineer",
+    "Big Data Engineer",
+    "ETL Developer",
+    "Data Pipeline Engineer",
+    "Azure Data Engineer",
+    "Snowflake Developer",
+    "Spark Developer",
+    "Data Warehousing Engineer"
+]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = ["Pune","mumbai","hyderabad" ,'"pimpri", "bangalore" ]             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = ["Pune","mumbai","hyderabad" ,"pimpri", "bangalore" ]             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India"]
 
 
 # >>>>>>>>>>> Job Search Filters <<<<<<<<<<<
@@ -103,7 +111,7 @@ require_visa = "No"               # "Yes" or "No"
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-us_citizenship = "iNDIAN"
+us_citizenship = "INDIAN"
 
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
@@ -121,7 +129,7 @@ current_city = "PUNE"                  # If left empty will fill in location of 
 # Address, not so common question but some job applications make it required!
 street = "SANT TUKARAM NAGAR "
 state = "MAHARASHTRA"
-zipcode = "411018
+zipcode = "411018"
 country = "INDIA"
 
 first_name = "Sakshi"                 # Your first name in quotes Eg: "First", "Sai"
@@ -129,16 +137,12 @@ middle_name = "Santosh"            # Your name in quotes Eg: "Middle", "Vignesh"
 last_name = "Nilawar"                # Your last name in quotes Eg: "Last", "Golla"
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-headline = "Headline"
-
-# Your summary in quotes, use \n to add line breaks
-summary = "Summary"
-
-# Your cover letter in quotes, use \n to add line breaks
-cover_letter = "Cover Letter"
+headline = "Data Engineer | Snowflake Certified | Databricks Enthusiast | Azure Data Factory | Python | SQL"
+summary = """A dedicated Data Engineer with expertise in building and optimizing scalable data pipelines and systems. Experienced in Azure, Databricks, Snowflake, PySpark, and SQL. Passionate about leveraging data to drive business insights."""
+cover_letter = """Dear Hiring Manager,\n\nI am excited to apply for the Data Engineer role. With hands-on experience in building robust data pipelines, optimizing workflows, and managing big data technologies, I bring value by driving efficient data solutions. My technical expertise includes Azure, Databricks, Snowflake, and Python, complemented by a strong foundation in SQL and data warehousing principles. I am confident in my ability to contribute effectively to your team.\n\nThank you for considering my application.\n\nBest Regards,\nSakshi Nilawar"""
 
 # Name of your most recent employer
-recent_employer = "Not Applicable" # "", "Lala Company", "Google", "Snowflake", "Databricks"
+recent_employer = "64 Squares LLC" # "", "Lala Company", "Google", "Snowflake", "Databricks"
 
 ## US Equal Opportunity questions
 # What is your ethnicity or race? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
@@ -222,8 +226,8 @@ stop_date_cycle_at_24hr = True     # True or False, Note: True or False are case
 # ----------------------------------------------  RESUME GENERATOR (Experimental & In Development)  ---------------------------------------------- #
 
 # Login Credentials for ChatGPT
-chatGPT_username = "username@example.com"
-chatGPT_password = "example_password"
+chatGPT_username = "sakshinilawar2003@gmail.com"
+chatGPT_password = "@Sahilnilawar"
 
 chatGPT_resume_chat_title = "Resume review and feedback."
 
