@@ -19,7 +19,7 @@ version:    24.12.29.12.30
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
-default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
+default_resume_path = "all resumes/default/SAKSHI_NILAWAR_DATA_ENGINEER_RESUME.pdf"      # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
 years_of_experience = "1"          # A number in quotes Eg: "0","1","2","3","4", etc.
@@ -82,12 +82,11 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 '''
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-linkedin_headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience" # "Headline" or "" to leave this question unanswered
+linkedin_headline = "Data Engineer with 1 year of experience in Data Processing, Cloud Technologies, and ETL processes, dedicated to building efficient and scalable data solutions." # "Headline" or "" to leave this question unanswered
 
 # Your summary in quotes, use \n to add line breaks if using single quotes "Summary".You can skip \n if using triple quotes """Summary"""
 linkedin_summary = """
-I'm a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions. 
-Specialized in React, Node.js, and Python.
+I'm a Data Engineer with 1 year of experience in designing, building, and optimizing data pipelines and cloud-based solutions. Proficient in Python, PySpark, and SQL, with hands-on expertise in tools like Databricks, Azure, and Snowflake. Passionate about transforming raw data into actionable insights to drive business success.
 """
 
 '''
