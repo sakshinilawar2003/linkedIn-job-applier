@@ -94,7 +94,7 @@ Note: If left empty as "", the tool will not answer the question. However, note 
 ''' 
 
 # Your cover letter in quotes, use \n to add line breaks if using single quotes "Cover Letter".You can skip \n if using triple quotes """Cover Letter""" (This question makes sense though)
-cover_letter =cover_letter = """  
+cover_letter = """  
 Dear Hiring Manager,  
 
 I am excited to apply for the Data Engineer position. With extensive experience in Azure, Databricks, Snowflake, and PySpark, I have developed expertise in ETL pipeline development, data transformation, and performance optimization.  

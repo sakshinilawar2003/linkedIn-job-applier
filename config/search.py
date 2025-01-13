@@ -20,7 +20,7 @@ version:    24.12.29.12.30
 search_terms = ["Data Engineer", "ETL Developer", "Python Developer", "Data Analyst", "SQL Developer", "Cloud ", "Cloud Engineer", "Web Developer" "Data Pipeline Engineer","Database Engineer", "Cloud Data Engineer"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "Pune", "Hyderabad" ,"Mumbai", "Bangalore" ,             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = ["Pune", "Hyderabad" ,"Mumbai", "Bangalore" ]            # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
