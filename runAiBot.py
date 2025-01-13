@@ -17,7 +17,7 @@ version:    24.12.29.12.30
 import os
 import csv
 import re
-
+import pyautogui
 
 from random import choice, shuffle, randint
 from datetime import datetime
