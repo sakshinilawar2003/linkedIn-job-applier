@@ -1,5 +1,5 @@
 '''
-Author:     Sai Vignesh Golla
+Author:     Sakshi Nilawar
 LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
 
 Copyright (C) 2024 Sai Vignesh Golla
@@ -24,7 +24,7 @@ middle_name = "Santosh"            # Your name in quotes Eg: "Middle", "Santosh"
 last_name = "Nilawar"                # Your last name in quotes Eg: "Last", "Nilawar"
 
 # Phone number (required), make sure it's valid.
-phone_number = "986014646"        # Enter your 10 digit number in quotes Eg: "9860147646"
+phone_number = "9860147646"        # Enter your 10 digit number in quotes Eg: "9860147646"
 
 # What is your current city?
 current_city = "Pune"                  # Los Angeles, San Francisco, etc.
@@ -81,6 +81,6 @@ As an independent developer, I pour my heart and soul into creating tools like t
 Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 Gratefully yours 🙏🏻,
-Sai Vignesh Golla
+Sakshi Nilawar
 '''
 ############################################################################################################

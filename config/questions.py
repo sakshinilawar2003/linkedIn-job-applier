@@ -35,7 +35,7 @@ linkedIn = "https://www.linkedin.com/in/sakshi-nilawar-20march2001"       # "htt
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-#us_citizenship = "U.S. Citizen/Permanent Resident"
+us_citizenship = ""
 
 
 
@@ -94,9 +94,21 @@ Note: If left empty as "", the tool will not answer the question. However, note 
 ''' 
 
 # Your cover letter in quotes, use \n to add line breaks if using single quotes "Cover Letter".You can skip \n if using triple quotes """Cover Letter""" (This question makes sense though)
-cover_letter = """
-Cover Letter
-"""
+cover_letter =cover_letter = """  
+Dear Hiring Manager,  
+
+I am excited to apply for the Data Engineer position. With extensive experience in Azure, Databricks, Snowflake, and PySpark, I have developed expertise in ETL pipeline development, data transformation, and performance optimization.  
+
+I have successfully worked on designing and optimizing data pipelines, implementing validation frameworks, and ensuring accuracy in data processing. My certifications, including Snowflake SnowPro Core and Postman API Fundamentals Student Expert, demonstrate my commitment to continuous learning and technical excellence.  
+
+I am eager to bring my skills and expertise to an organization focused on leveraging data for impactful solutions. I look forward to contributing to projects that drive innovation and deliver value.  
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can support your data engineering needs.  
+
+Best regards,  
+Sakshi Nilawar  
+"""  
+
 
 '''
 Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
@@ -150,6 +162,6 @@ As an independent developer, I pour my heart and soul into creating tools like t
 Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 Gratefully yours 🙏🏻,
-Sai Vignesh Golla
+Sakshi Nilawar
 '''
 ############################################################################################################
