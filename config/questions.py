@@ -42,7 +42,7 @@ us_citizenship = "Non-citizen allowed to work for any employer"
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 
 # What to enter in your desired salary question (American and European), What is your expected CTC (South Asian and others)?, only enter in numbers as some companies only allow numbers,
-desired_salary = 800000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
+desired_salary = 650000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your expected CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -82,11 +82,11 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 '''
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-linkedin_headline = "Data Engineer with 1 year of experience in Data Processing, Cloud Technologies, and ETL processes, dedicated to building efficient and scalable data solutions." # "Headline" or "" to leave this question unanswered
-
+linkedin_headline =  "Data Engineer with expertise in scalable data solutions, ETL workflows, and cloud technologies"# "Headline" or "" to leave this question unanswered
+                    
 # Your summary in quotes, use \n to add line breaks if using single quotes "Summary".You can skip \n if using triple quotes """Summary"""
 linkedin_summary = """
-I'm a Data Engineer with 1 year of experience in designing, building, and optimizing data pipelines and cloud-based solutions. Proficient in Python, PySpark, and SQL, with hands-on expertise in tools like Databricks, Azure, and Snowflake. Passionate about transforming raw data into actionable insights to drive business success.
+I'm a Data Engineer with 1.5  year of experience in designing, building, and optimizing data pipelines and cloud-based solutions. Proficient in Python, PySpark, and SQL, with hands-on expertise in tools like Databricks, Azure, and Snowflake. Passionate about transforming raw data into actionable insights to drive business success.
 """
 
 '''
